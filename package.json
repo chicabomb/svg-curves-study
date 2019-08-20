@@ -1,0 +1,39 @@
+{
+  "name": "next-react-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-styled-components": "^1.10.6",
+    "next": "^9.0.3",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "3.0.1",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.2.6",
+    "babel-plugin-transform-flow-strip-types": "6.22.0",
+    "flow-bin": "0.77.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "flow": "flow",
+    "start": "next start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
